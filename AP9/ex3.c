@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+void preencher_vetor(float v[], int n)
+{
+		printf("Introduza o elemento %d:", (n--));
+}
+
+
+float somatorio_vetor(float v[], int n)
+{
+
+}
+
+
+void imprimir_vetor(float v[], int n)
+{
+
+}
+
+
+main()
+{
+	int n=0;
+	int v[i]={0};
+	
+	printf("Quantos elementos pretende armazenar?");
+	scanf("%d ", num);
+		
+	if(num <15)
+		{
+			
+			v[n]=num; //guarda o valor introduzido no vetor
+			n++;
+		}
+		else
+			printf("O número de elementos inseridos é superior a 15");
+	
+		
+}			

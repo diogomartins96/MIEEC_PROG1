@@ -1,0 +1,23 @@
+#include <stdio.h>
+main()
+{
+	int c_i, n;
+	float j, c_a;
+	printf("Qual o capital inicial?");	
+	scanf("%d", &c_i);
+	
+	printf("Que taxa de juro dada pelo banco?");
+	scanf("%f", &j);
+
+	printf("Durante quantos anos?");
+	scanf("%d", &n);
+	
+	j = j/100;
+	c_a = c_i;
+		while(n>0)	
+		{	
+			c_a = c_a*(1+j);
+			n = n-1;
+		}
+	printf("%.3f\n", c_a);		
+}

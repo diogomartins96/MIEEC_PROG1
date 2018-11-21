@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int resto(int x, int y)
+{
+	int d, int r;
+
+	printf("Insira o Dividendo e o Divisor: ");
+	scnaf("%d %d" &x, &y);
+
+	d=
+	r=-(y*d)+x;
+
+}
+
+  
+int par(int n);	
+
+
+  
