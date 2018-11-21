@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+main()
+{	
+	float x;
+	int y;
+	printf("Insira um número, x:");
+	scanf("%f", &x);
+	y= x+0.5;
+	printf("O número arredondado é: %d\n", y);
+	
+}
